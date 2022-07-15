@@ -7,7 +7,10 @@ const mainAction=document.querySelector('.main__action')
 
 
 burger.addEventListener('click',()=>{
-    div.innerHTML=(`<button class="main__action">Contact Us</button>  `)
+    div.innerHTML=(`<div class="main__action">
+    <div class="action__text">CONTACT US</div>
+    <img src="./img/icons/rozetka.svg" alt="rozetka">
+    </div>`)
     ul.appendChild(div)
 })
 
